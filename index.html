@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bakery Shop Website</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<!--cdn font awesome link -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+		<!--css file link -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Abel&family=Courgette&family=Oswald:wght@200&family=PT+Sans+Narrow&family=Playfair+Display:ital@1&family=Playfair:ital,wght@1,500&family=Poppins:wght@100;600&family=Roboto&family=Roboto+Serif:wght@600&display=swap" rel="stylesheet">
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+<body>
+	<!--header section start -->
+	<section class="header">  
+			<a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+			<nav class="navbar">
+				<a href="#home">Home</a>
+				<a href="#about">About</a>
+				<a href="#products">Products</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#reservation">Reservation</a>
+
+			</nav>
+			<div class="icons">
+				<i class="fas fa-search"></i>
+				<i class="fas fa-shopping-cart" id="shopping-cart"></i>
+				<i class="fas fa-bars" id="menu"></i>			
+			</div>
+		</section>
+		<!--header section end -->
+
+
+		<!-- home section starts-->
+		<section class="Home" id="home">
+			<div class="swiper home-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide"style="background: url(images/background1.png) no-repeat">
+						<div class="content">
+							<h3>Savor the Flavors</h3>
+							<h1>Fresh Baked Cakes</h1>
+							<a href="#" class="btn"> Order Now </a>
+						</div>
+					</div>
+
+					<div class="swiper-slide slide" style="background: url(images/background2.png) no-repeat">
+						<div class="content">
+							<h3>Open for Sweetness</h3>
+							<h1>Enjoy</h1>
+							<a href="#" class="btn"> Order Now </a>
+						</div>
+					</div>
+					<div class="swiper-slide slide" style="background: url(images/background3.png) no-repeat">
+
+						<div class="content">
+							<h3>A Delightful Treat</h3>
+							<h1>Delicious</h1>
+							<a href="#" class="btn"> Order Now </a>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+    </section>
+    <!-- home section ends -->
+
+    <!--about section starts-->
+    <section class="About" id="about">
+    	<h1 class="heading"><span>About</span> Us</h1>
+
+    	<div class="image">
+    		<img src="images/about.jpg">
+    	</div>
+    	<div class="box">
+    		<div class="content">
+    			<h3>Sweet <span>Delights</span></h3>
+    			<p>
+    				Welcome to Sweet Delights Bakery, where every bite is a moment of pure bliss. We are passionate about creating exquisite cakes, delectable pastries, and irresistible cupcakes that awaken your taste buds and bring joy to your day.Sweet Delights is more than just a bakery; it's a place where dreams come true.
+    			</p>
+    			<a href="#" class="btn">Read more</a>
+    		</div>
+    	</div>
+    </section>
+    <!--about section ends-->
+
+    <!--menu section starts-->
+    <div class="Products" id="products">
+    	<div class="menu-category">
+    		<h2>Our Menu</h2>
+    		 </div>
+
+    		 <div class="column">
+    		 	<div class="menu-category">
+    		 		<h2>Cake</h2>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order1.jpg" alt="Cake 1" class="menu-image">
+    		 		<p class="menu-price">$10</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order2.jpg" alt="Cake 2" class="menu-image">
+    		 		<p class="menu-price">$15</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order3.jpg" alt="Cake 3" class="menu-image">
+    		 		<p class="menu-price">$12</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 </div>
+    		 <div class="column">
+    		 	<div class="menu-category">
+    		 		<h2>Cupcake</h2>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order4.jpg" alt="Cupcake 1" class="menu-image">
+    		 		<p class="menu-price">$3</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order5.jpg" alt="Cupcake 2" class="menu-image">
+    		 		<p class="menu-price">$4</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order6.jpg" alt="Cupcake 3" class="menu-image">
+    		 		<p class="menu-price">$5</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 </div>
+    		 <div class="column">
+    		 	<div class="menu-category">
+    		 		<h2>Pastry</h2>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order7.jpg" alt="Pastry 1" class="menu-image">
+    		 		<p class="menu-price">$8</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order8.jpg" alt="Pastry 2" class="menu-image">
+    		 		<p class="menu-price">$6</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 	<div class="menu-item">
+    		 		<img src="images/order9.jpg" alt="Pastry 3" class="menu-image">
+    		 		<p class="menu-price">$7</p>
+    		 		<button class="order-button">Add to Cart</button>
+    		 	</div>
+    		 </div>
+    		</div>
+    		<!--menu section ends-->
+
+    		<!--gallery section starts-->
+    		<section class="gallery-container" id="gallery">
+			<div class="heading">Photo Gallery</div>
+
+			<div class="box">
+				<div class="design">
+					<img src="images/1.jpg">
+					<img src="images/2.jpeg">
+					<img src="images/3.jpg">
+					<img src="images/4.jpg">
+					<img src="images/5.jpg">
+					<img src="images/15.jpg">
+				</div>
+
+					<div class="design">
+					<img src="images/6.jpg">
+					<img src="images/7.jpg">
+					<img src="images/8.jpg">
+					<img src="images/9.jpg">
+					<img src="images/10.jpg">
+				</div>
+
+					<div class="design">
+					<img src="images/11.jpg">
+					<img src="images/12.jpg">
+					<img src="images/13.jpg">
+					<img src="images/14.jpg">
+
+				</div>
+			</div>
+			<div>
+				<a href="#" class="btn">More</a>
+			</div>
+		</section>
+		<!--gallery section ends-->
+		
+		<!--reseration section starts-->
+		<section class="reservation" id="reservation">
+			<h2>Reservation</h2>
+
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="people">Number of People:</label>
+
+			<select id="people" name="people">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+
+			 <label for="cake">Choice for Cake:</label>
+			 <input type="text" id="cake" name="cake">
+
+			 <label for="cupcake">Choice for Cupcake:</label>
+			 <input type="text" id="cupcake" name="cupcake">
+
+			 <label for="pastry">Choice for Pastry:</label>
+			 <input type="text" id="pastry" name="pastry">
+
+			 <label for="time">Time and Date:</label>
+			 <input type="datetime-local" id="time" name="time" required>
+
+			 <label for="message">Message:</label>
+			 <textarea id="message" name="message"></textarea>
+
+			 <input type="submit" value="Submit">
+			</form>
+		</section>
+		<!--reseration section end-->
+		
+		<!--footer section starts-->
+		<footer>
+			<div class="footer-content">
+				<p>&copy; 2023 Sweet Delights. All rights reserved.</p>
+				<ul class="footer-links">
+					<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+		<!--footer section ends-->
+
+		<!--jump to top-->
+		<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></a>
+
+			<!-- Swiper JS -->
+			<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+              
+              <!-- Initialize Swiper -->
+              <script>
+              	const progressCircle = document.querySelector(".autoplay-progress svg");
+               	const progressContent = document.querySelector(".autoplay-progress span");
+               	var swiper = new Swiper(".home-slider", {
+               		spaceBetween: 30,
+               		centeredSlides: true,
+               		 autoplay: {
+               		 	delay: 7500,
+               		 	disableOnInteraction: false
+               		 },
+               		  pagination: {
+               		  	el: ".swiper-pagination",
+               		  	clickable: true
+               		  	 },
+               		  	  loop:true,
+               		  	 });
+               		  	</script>
+               		  	<script src="js/script.js"></script>
+               		  	<script type="text/javascript">
+               		  		let menu = document.querySelector('#menu');
+               		  		let navbar = document.querySelector('.navbar');
+
+               		  		menu.onclick = () =>{
+               		  			menu.classList.toggle('fa-times');
+               		  			navbar.classList.toggle('active');
+               		  		}
+               </script>
+       </body>
+</html>
